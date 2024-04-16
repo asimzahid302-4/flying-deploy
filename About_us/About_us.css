@@ -1,0 +1,585 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic,
+    Arial, sans-serif;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------HEADER AND NAV--------------------------------------------------------------------------- */
+
+/* top nav start */
+
+header {
+  height: 45vh;
+  width: 100%;
+}
+
+div.header-background {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("./background/background.jpg") no-repeat bottom/cover;
+  height: 45vh;
+  width: 100%;
+}
+
+.top-nav {
+  height: 119px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav .left {
+  padding-left: 100px;
+}
+
+.top-nav-elements {
+  margin-right: 150px;
+}
+
+.top-nav-elements a {
+  margin: 0px 20px;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: whitesmoke;
+  padding: 7px 12px;
+  border-radius: 8px;
+  transition: 0.5s ease-in-out;
+}
+
+.top-nav-elements a:hover {
+  background-color: #2aace8;
+  color: whitesmoke;
+  transition: 0.5s ease-in-out;
+}
+.nav-contact-us-edit:hover {
+  color: whitesmoke !important;
+}
+
+.nav-about-us-edit {
+  color: #2aace8 !important;
+}
+/* top nav end */
+
+/* hero text edit */
+.hero-text {
+  height: 320px;
+  width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  padding: 120px 0px 0px 200px;
+  color: #2aace8;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.main-container {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .content {
+  height: 75%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* child 1 edit  */
+
+.main-container .content .child-1 {
+  height: 90%;
+  width: 30%;
+}
+
+.main-container .content .child-1 h2 {
+  color: #09212b;
+  font-size: 45px;
+  padding: 20px;
+}
+
+.main-container .content .child-1 p {
+  color: #76848c;
+  font-size: 21px;
+  padding: 20px;
+}
+
+/* child 2 edit */
+
+.main-container .content .child-2 {
+  background-image: url("./planes/plane.jpg");
+  background-size: cover;
+  height: 90%;
+  width: 30%;
+}
+
+/* child 3 edit */
+
+.main-container .content .child-3 {
+  background-color: #0b2733;
+  height: 90%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .content .child-3 .sub-1 {
+  width: 75%;
+  height: 40%;
+}
+
+.main-container .content .child-3 .sub-1 p {
+  font-size: 23px;
+  color: whitesmoke;
+}
+
+/* container no 2 edit */
+
+.container-2 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 .content {
+  height: 90%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* child 1 edit */
+
+.container-2 .content .child-1 {
+  height: 90%;
+  width: 21%;
+}
+
+.container-2 .content .child-1 .sub-1 {
+  padding: 15px 18px;
+}
+
+.container-2 .content .child-1 .sub-2 h2 {
+  color: #09212b;
+  font-size: 28px;
+  padding: 3px 8px;
+}
+
+.container-2 .content .child-1 .sub-3 p {
+  color: #76849b;
+  font-size: 22px;
+  padding: 13px 8px;
+}
+
+/* child 2 edit */
+
+.container-2 .content .child-2 {
+  height: 90%;
+  width: 21%;
+}
+
+.container-2 .content .child-2 .sub-1 {
+  padding: 15px 18px;
+}
+
+.container-2 .content .child-2 .sub-2 h2 {
+  color: #09212b;
+  font-size: 28px;
+  padding: 3px 8px;
+}
+
+.container-2 .content .child-2 .sub-3 p {
+  color: #76849b;
+  font-size: 22px;
+  padding: 13px 8px;
+}
+
+/* child 3 edit */
+
+.container-2 .content .child-3 {
+  height: 90%;
+  width: 21%;
+}
+
+.container-2 .content .child-3 .sub-1 {
+  padding: 15px 18px;
+}
+
+.container-2 .content .child-3 .sub-2 h2 {
+  color: #09212b;
+  font-size: 28px;
+  padding: 3px 8px;
+}
+
+.container-2 .content .child-3 .sub-3 p {
+  color: #76849b;
+  font-size: 22px;
+  padding: 13px 8px;
+}
+
+/* child 4 edit */
+
+.container-2 .content .child-4 {
+  height: 90%;
+  width: 21%;
+}
+
+.container-2 .content .child-4 .sub-1 {
+  padding: 15px 18px;
+}
+
+.container-2 .content .child-4 .sub-2 h2 {
+  color: #09212b;
+  font-size: 28px;
+  padding: 3px 8px;
+}
+
+.container-2 .content .child-4 .sub-3 p {
+  color: #76849b;
+  font-size: 22px;
+  padding: 13px 8px;
+}
+
+/* our team container start  */
+
+.our-team-container {
+  background-color: #0b2733;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-content {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* child no 1 */
+.team-content .child-1 {
+  height: 10%;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.team-content .child-1 h2 {
+  font-size: 40px;
+  color: #fefefe;
+}
+
+.team-content .child-1 span {
+  color: #2cbffe;
+}
+
+/* child no 2 */
+.team-content .child-2 {
+  height: 70%;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* sub 1 */
+.team-content .child-2 .sub-1{
+  background-color: whitesmoke;
+  height: 90%;
+  width: 27%;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-content .child-2 .sub-1 .top{
+  background-image: url("./pilot/pilot.jpg");
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+}
+
+.team-content .child-2 .sub-1 .bottom{
+  padding-top: 50px;
+}
+
+.team-content .child-2 .sub-1 .bottom h2{
+  font-size: 30px;
+  color: #09212B;
+}
+
+.team-content .child-2 .sub-1 .bottom p{
+  font-size: 20px;
+  color: #2cbffe;
+  margin-top: 10px;
+}
+
+.team-content .child-2 .sub-1:hover{
+  border-radius: 0px 0px 30px 30px;
+  height: 100%;
+  
+}
+
+
+/* sub 2 */
+.team-content .child-2 .sub-2{
+  background-color: whitesmoke;
+  height: 90%;
+  width: 27%;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-content .child-2 .sub-2 .top{
+  background-image: url("./pilot/pilot.jpg");
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+}
+
+
+.team-content .child-2 .sub-2 .bottom{
+  padding-top: 50px;
+}
+
+.team-content .child-2 .sub-2 .bottom h2{
+  font-size: 30px;
+  color: #09212B;
+}
+
+.team-content .child-2 .sub-2 .bottom p{
+  font-size: 20px;
+  color: #2cbffe;
+  margin-top: 10px;
+}
+
+.team-content .child-2 .sub-2:hover{
+  border-radius: 0px 0px 30px 30px;
+  height: 100%;
+  
+}
+
+/* sub 3 */
+.team-content .child-2 .sub-3{
+  background-color: whitesmoke;
+  height: 90%;
+  width: 27%;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-content .child-2 .sub-3 .top{
+  background-image: url("./pilot/pilot.jpg");
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+}
+
+.team-content .child-2 .sub-3 .bottom{
+  padding-top: 50px;
+}
+
+.team-content .child-2 .sub-3 .bottom h2{
+  font-size: 30px;
+  color: #09212B;
+}
+
+.team-content .child-2 .sub-3 .bottom p{
+  font-size: 20px;
+  color: #2cbffe;
+  margin-top: 10px;
+}
+
+.team-content .child-2 .sub-3:hover{
+  border-radius: 0px 0px 30px 30px;
+  height: 100%;
+  
+}
+
+/* child no 3 */
+.team-content .child-3 {
+
+  height: 15%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-content .child-3 a {
+  background-color: #2cc0ff;
+  padding: 20px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #0b2733;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-content .child-3 a:hover{
+  background-color: #fefefe;
+  color: #0b2733;
+}
+
+/* join aviation start */
+
+.join-aviation-container {
+  background-color: #2cc0ff;
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-aviation-container .child-1 h2 {
+  color: #09212b;
+  font-size: 70px;
+  padding: 10px;
+}
+
+/* life as pilot */
+.main-container .content .child-2-bottom {
+  background-image: url("./pilot/RFC-about-us-pic.jpg");
+  background-size: cover;
+  height: 90%;
+  width: 30%;
+}
+
+.main-container .content .child-3-bottom {
+  background-image: url("./pilot/RFC-about-us-pic2.jpg");
+  background-size: cover;
+  height: 90%;
+  width: 30%;
+}
+
+
+/* footer start  */
+
+footer {
+  background-color: #0a1b22;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bottom-footer {
+  background-color: #0a1b22;
+  height: 60%;
+  width: 100%;
+}
+
+/* social links */
+
+.social-links {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* child no 1 */
+.social-links .child-1 {
+  height: 100%;
+  width: 50%;
+}
+.social-links .child-1 img {
+  padding: 40px 0px 20px 50px;
+}
+
+.social-links .child-1 p {
+  font-size: 19px;
+  font-weight: bolder;
+  padding: 0px 0px 0px 50px;
+  color: whitesmoke;
+}
+
+/* child no 2 */
+.social-links .child-2 {
+  height: 100%;
+  width: 25%;
+}
+
+.social-links .child-2 h2 {
+  font-size: 35px;
+  padding: 40px 0px 20px 50px;
+  color: whitesmoke;
+}
+
+.social-links .child-2 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0px 0px 0px 50px;
+  color: whitesmoke;
+}
+
+.social-links .child-2 a:hover {
+  color: #2cc0ff;
+}
+
+/* child no 3 */
+.social-links .child-3 {
+  height: 100%;
+  width: 25%;
+}
+
+.social-links .child-3 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.social-links .child-3 a:hover {
+  color: #2cc0ff;
+}
+
+.social-links .child-3 .child-special {
+  padding-top: 115px;
+  padding-left: 50px;
+}
+
+/* copyright */
+.copyright {
+  height: 100px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright .child-1 {
+  color: whitesmoke;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.copyright .child-2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-right: 95px;
+}
+
+.copyright .child-2 a:hover {
+  color: #2cc0ff;
+}

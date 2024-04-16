@@ -1,0 +1,412 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------HEADER AND NAV--------------------------------------------------------------------------- */
+
+/* top nav start */
+
+header{
+    height: 90vh;
+    width: 100%;
+}
+
+div.header-background{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) , url("./background/background.jpg");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.top-nav{
+    height: 119px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav .left{
+    padding-left: 100px;
+}
+
+.top-nav-elements {
+    margin-right: 150px;
+}
+
+.top-nav-elements a{
+    margin: 0px 20px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 7px 12px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+
+.top-nav-elements a:hover{
+    background-color: #2AACE8;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+.nav-contact-us-edit:hover{
+    color: whitesmoke !important;
+}
+
+.nav-contact-us-edit{
+    color: #2AACE8 !important;
+    
+}
+/* top nav end */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.hero-text{
+    height: 320px;
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 120px 0px 0px 200px;
+    color: whitesmoke;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.header-info{
+    background-color: #2CC0FF;
+    height: 406px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* child no 1 */
+.header-info .child-1{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-info .child-1 .sub-2 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.header-info .child-1 .sub-2 p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/* child no 2 */
+.header-info .child-2{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-info .child-2 .sub-2 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.header-info .child-2 .sub-2 p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+/* child no 3 */
+.header-info .child-3{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-info .child-3 .sub-2 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.header-info .child-3 .sub-2 a{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header-info .child-3 .sub-2 a:hover{
+    color: black;
+}
+
+/* scroll top */
+.scroll-top{
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+    top: 870px;
+    left: 96%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------FORM STARTS----------------------------------------------------------------------- */
+
+.form-main{
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-align{
+    height: 85%;
+    width: 60%;
+}
+
+
+.form-heading{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #0A222C;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+form .input-edit{
+    height: 70px;
+    width: 45%;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: transparent;
+    margin: 0px 22px;
+}
+
+form .input-edit::placeholder{
+    padding: 30px 0px 0px 30px;
+    font-size: 25px;
+}
+
+.check-edit{
+    text-align: center;
+}
+
+form label{
+    color: #A8B6BD;
+    font-size: 20px;
+}
+
+form textarea{
+    border: 1px solid gray;
+    border-radius: 30px;
+    height: 220px;
+    width: 95%;
+    margin: 0px 22px 30px 22px;
+
+}
+
+form textarea::placeholder{
+    font-size: 25px;
+    padding: 20px 0px 0px 30px;
+}
+
+form .btn{
+   text-align: center;
+  
+}
+
+form button{
+    height: 80px;
+    width: 35%;
+    margin-top: 50px;
+    border: 1px solid gray;
+    border-radius: 60px;
+    font-size: 25px;
+    background-color: #0A222C; 
+    color: whitesmoke;
+    transition: 0.2s ease-in-out;
+}
+
+form button:hover{
+    color: #0A222C;
+    background-color: whitesmoke;
+    transition: 0.2s ease-in-out;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.map-edit{
+    background-color: burlywood;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* main map */
+.main-map{
+    background-color: aquamarine;
+    height: 80%;
+    width: 100%;
+}
+
+
+/* text of map */
+.map-edit-text{
+    background-color: #2CC0FF;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    color: #09212B;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------FOOTER STARTS-------------------------------------------------------------------------- */
+
+footer{
+    background-color: #0A1B22;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.bottom-footer{
+    background-color: #0A1B22;
+    height: 60%;
+    width: 100%;
+}
+
+/* social links */
+
+.social-links{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* child no 1 */
+.social-links .child-1{
+    height: 100%;
+    width: 50%;
+
+}
+.social-links .child-1 img{
+    padding: 40px 0px 20px 50px;
+}
+
+.social-links .child-1 p{
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 0px 0px 0px 50px;
+    color: whitesmoke;
+}
+
+/* child no 2 */
+.social-links .child-2{
+    height: 100%;
+    width: 25%;
+}
+
+.social-links .child-2 h2{
+    font-size: 35px;
+    padding: 40px 0px 20px 50px;
+    color: whitesmoke;
+}
+
+.social-links .child-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0px 0px 0px 50px;
+    color: whitesmoke;
+}
+
+.social-links .child-2 a:hover{
+    color: #2CC0FF;
+}
+
+/* child no 3 */
+.social-links .child-3{
+     height: 100%;
+    width: 25%;
+}
+
+.social-links .child-3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.social-links .child-3 a:hover{
+    color: #2CC0FF;
+}
+
+.social-links .child-3 .child-special{
+   padding-top: 115px;
+   padding-left: 50px;
+}
+
+/* copyright */
+.copyright{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright .child-1{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.copyright .child-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 95px;
+}
+
+.copyright .child-2 a:hover{
+    color: #2CC0FF;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */

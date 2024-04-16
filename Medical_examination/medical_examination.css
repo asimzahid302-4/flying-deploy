@@ -1,0 +1,300 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic,
+      Arial, sans-serif;
+  }
+  
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* -----------------------------------------------------------------HEADER AND NAV--------------------------------------------------------------------------- */
+  
+  /* top nav start */
+  
+  header {
+    height: 45vh;
+    width: 100%;
+  }
+  
+  div.header-background {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+      ),
+      url("./background/background.jpg") no-repeat bottom/cover;
+    height: 45vh;
+    width: 100%;
+  }
+  
+  .top-nav {
+    height: 119px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-nav .left {
+    padding-left: 100px;
+  }
+  
+  .top-nav-elements {
+    margin-right: 150px;
+  }
+  
+  .top-nav-elements a {
+    margin: 0px 20px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 7px 12px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .top-nav-elements a:hover {
+    background-color: #2aace8;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+  }
+  .nav-become-edit:hover {
+    color: whitesmoke !important;
+  }
+  
+  .nav-become-edit {
+    color: #2aace8 !important;
+  }
+  /* top nav end */
+  
+  /* hero text edit */
+  .hero-text {
+    height: 320px;
+    width: 100%;
+  }
+  
+  .hero-text h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 120px 0px 0px 200px;
+    color: #2aace8;
+  }
+
+/* main section */
+main{
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  height: 90%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* child no 1 */
+.container .child-1{
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .child-1 .sub-1{
+  background-image: url("./pic/implications-of-stroke-and-tia_16x9.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+}
+
+/* sub 2 */
+.container .child-1 .sub-2{
+  height: 100%;
+  width: 45%;
+  padding-left: 50px;
+}
+
+.container .child-1 .sub-2 h2{
+  color: #09212b;
+  font-size: 45px;
+}
+
+.container .child-1 .sub-2 p{
+  color: #76848cbb;
+  font-size: 20px;
+}
+
+.container .child-1 .sub-2 .bold{
+  color: #76848C;
+  font-synthesis: 22px;
+}
+
+.container .child-1 .sub-2 ul{
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.container .child-1 .sub-2 ul li{
+  margin-top: 25px;
+  margin-left: 23px;
+  color: #9BA5AB;
+}
+
+/* child no 2 */
+.container .child-2{
+  width: 100%;
+  height: 20%;
+  margin-top: 30px;
+}
+
+.container .child-2 h2{
+  font-size: 40px;
+  color: #09212b;
+}
+
+.container .child-2 li{
+  color: #76797a;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+
+/* join aviation */
+.join-aviation-container {
+  background-color: #2cc0ff;
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-aviation-container .child-1 h2 {
+  color: #09212b;
+  font-size: 70px;
+  padding: 10px;
+}
+
+  
+  
+  /* footer start  */
+
+footer {
+    background-color: #0a1b22;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .bottom-footer {
+    background-color: #0a1b22;
+    height: 60%;
+    width: 100%;
+  }
+  
+  /* social links */
+  
+  .social-links {
+    height: 300px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* child no 1 */
+  .social-links .child-1 {
+    height: 100%;
+    width: 50%;
+  }
+  .social-links .child-1 img {
+    padding: 40px 0px 20px 50px;
+  }
+  
+  .social-links .child-1 p {
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 0px 0px 0px 50px;
+    color: whitesmoke;
+  }
+  
+  /* child no 2 */
+  .social-links .child-2 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .social-links .child-2 h2 {
+    font-size: 35px;
+    padding: 40px 0px 20px 50px;
+    color: whitesmoke;
+  }
+  
+  .social-links .child-2 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0px 0px 0px 50px;
+    color: whitesmoke;
+  }
+  
+  .social-links .child-2 a:hover {
+    color: #2cc0ff;
+  }
+  
+  /* child no 3 */
+  .social-links .child-3 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .social-links .child-3 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+  }
+  
+  .social-links .child-3 a:hover {
+    color: #2cc0ff;
+  }
+  
+  .social-links .child-3 .child-special {
+    padding-top: 115px;
+    padding-left: 50px;
+  }
+  
+  /* copyright */
+  .copyright {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright .child-1 {
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  
+  .copyright .child-2 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 95px;
+  }
+  
+  .copyright .child-2 a:hover {
+    color: #2cc0ff;
+  }
+  

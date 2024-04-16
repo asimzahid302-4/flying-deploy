@@ -1,0 +1,386 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------HEADER AND NAV--------------------------------------------------------------------------- */
+
+/* top nav start */
+
+header{
+    height: 45vh;
+    width: 100%;
+}
+
+div.header-background{
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) , url('./background/background.jpg') no-repeat bottom/cover;
+    height: 45vh;
+    width: 100%;
+}
+
+.top-nav{
+    height: 119px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav .left{
+    padding-left: 100px;
+}
+
+.top-nav-elements {
+    margin-right: 150px;
+}
+
+.top-nav-elements a{
+    margin: 0px 20px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 7px 12px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+
+.top-nav-elements a:hover{
+    background-color: #2AACE8;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+.nav-contact-us-edit:hover{
+    color: whitesmoke !important;
+}
+
+.nav-our-fleet-edit{
+    color: #2AACE8 !important;
+    
+}
+/* top nav end */
+
+/* hero text edit */
+.hero-text{
+    height: 320px;
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 120px 0px 0px 200px;
+    color: #2AACE8;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------MAIN CONTAINER-------------------------------------------------------------------- */
+.main{
+    height: 205vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main-container{
+    height: 200vh;
+    width: 80%;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* for top plane edit */
+.top-plane{
+    height: 65vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-plane .child-1{
+    background-color: #2DC0FF;
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* child 1 edit text  */
+.top-plane .child-1 .text p{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.top-plane .child-1 .info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+}
+
+.top-plane .child-1 .info p{
+    font-size: 18px;
+}
+
+
+/* child 2 edit */
+.top-plane .child-2{
+    height: 65%;
+    width: 90.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-plane .child-2 .sub-1{
+    height: 100%;
+    width: 50%;
+    background: url('./planes/cessna-152.jpg') no-repeat bottom/cover;
+}
+
+.top-plane .child-2 .sub-2{
+    height: 50%;
+    width: 45%;
+}
+
+
+.top-plane .child-2 .sub-2 p{
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+
+
+/* for middle plane edit */
+.middle-plane{
+    height: 65vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle-plane .child-1{
+    background-color: #2DC0FF;
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* child 1 edit text  */
+.middle-plane .child-1 .text p{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.middle-plane .child-1 .info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+}
+
+.middle-plane .child-1 .info p{
+    font-size: 18px;
+}
+
+
+/* child 2 edit */
+.middle-plane .child-2{
+    height: 65%;
+    width: 90.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-plane .child-2 .sub-1{
+    height: 100%;
+    width: 50%;
+    background: url('./planes/cessna-172.jpg') no-repeat bottom/cover;
+}
+
+.middle-plane .child-2 .sub-2{
+    height: 50%;
+    width: 45%;
+}
+
+
+.middle-plane .child-2 .sub-2 p{
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+
+
+
+/* for bottom plane edit */
+.bottom-plane{
+    height: 65vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom-plane .child-1{
+    background-color: #2DC0FF;
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* child 1 edit text  */
+.bottom-plane .child-1 .text p{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.bottom-plane .child-1 .info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+    align-items: center;
+}
+
+.bottom-plane .child-1 .info p{
+    font-size: 18px;
+}
+
+
+/* child 2 edit */
+.bottom-plane .child-2{
+    height: 65%;
+    width: 90.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-plane .child-2 .sub-1{
+    height: 100%;
+    width: 50%;
+    background: url('./planes/cessna-150.jpg') no-repeat bottom/cover;
+}
+
+.bottom-plane .child-2 .sub-2{
+    height: 50%;
+    width: 45%;
+}
+
+
+.bottom-plane .child-2 .sub-2 p{
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------FOOTER STARTS--------------------------------------------------------------------- */
+
+footer{
+    background-color: #0A1B22;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-body{
+    height: 75%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* sec no 1 edit */
+.footer-body .sec-1{
+    height: 40%;
+    width: 90%; 
+    text-align: center;
+}
+
+.footer-body .sec-1 p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+/* sec no 2 edit */
+.footer-body .sec-2{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+}
+.footer-body .sec-2 a img{
+    padding-top: 30px;
+}
+
+/* sec no 3 edit */
+.footer-body .sec-3{
+    height: 15%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-body .sec-3 .link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-body .sec-3 .link a{
+    text-decoration: none;
+    color: #A1B0B8;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.footer-body .sec-3 .link a:hover{
+    color:#a1b0b8af;
+}
+
+.footer-body .sec-3 .link a:first-child{
+    margin-left: 0px !important;
+}
+
+.footer-body .sec-3 .copyright p{
+    color: whitesmoke;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
